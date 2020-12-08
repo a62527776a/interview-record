@@ -10,10 +10,14 @@ module.exports = {
                 },
                 {
                     title: '网络',   // 必要的
+                    collapsable: false,
                     path: '/network/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-                    sidebarDepth: 2,    // 可选的, 默认值是 1
                     children: [
-                        ['/network/prototype', '协议']
+                        {
+                            title: '协议',   // 必要的
+                            collapsable: false,
+                            path: '/network/prototype',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        }
                     ]
                 }
             ]
