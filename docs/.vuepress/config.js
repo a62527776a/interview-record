@@ -11,12 +11,22 @@ module.exports = {
                 {
                     title: '网络',   // 必要的
                     collapsable: false,
-                    path: '/network/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                     children: [
                         {
                             title: '协议',   // 必要的
                             collapsable: false,
                             path: '/network/prototype',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+                        }
+                    ]
+                },
+                {
+                    title: '语言',   // 必要的
+                    collapsable: false,
+                    children: [
+                        {
+                            title: 'JavaScript',   // 必要的
+                            collapsable: false,
+                            path: '/language/js',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
                         }
                     ]
                 }
