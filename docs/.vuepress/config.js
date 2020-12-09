@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/interview-record/',
     title: '面试题学习记录',
     description: '记录一些感兴趣的面试题 并且写一些学习笔记',
     themeConfig: {
